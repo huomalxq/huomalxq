@@ -40,11 +40,11 @@ jobs:
           }
           EOL
 
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+      - uses: huomalxq/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
           # Replace YOUR_USERNAME with your GitHub username
-          USERNAME: YOUR_USERNAME
+          USERNAME: huomalxq
 
       - name: Commit and push
         run: |
